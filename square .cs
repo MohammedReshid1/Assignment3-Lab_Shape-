@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Class_practice_shape
+namespace Lab_Shape
 {
     class Square : Shape
     {
@@ -24,7 +24,7 @@ namespace Class_practice_shape
         }
         public double getArea()
         {
-            return width * length;
+            return (width * length);
 
         }
         public double getPerimeter()

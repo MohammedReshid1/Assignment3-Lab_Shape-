@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Class_practice_shape
+namespace Lab_Shape
 {
 
     class Circle : Shape
@@ -16,7 +16,6 @@ namespace Class_practice_shape
             get => _radius;
             set => _radius = value;
         }
-        //public int MyProperty { get; set; }
         public double getArea()
         {
             return PI * (radius * radius);

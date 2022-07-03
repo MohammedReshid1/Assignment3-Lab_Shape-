@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Class_practice_shape
+namespace Lab_Shape
 {
     class Triangle: Shape
     {

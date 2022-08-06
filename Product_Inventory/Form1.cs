@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -33,7 +33,7 @@ namespace WinApp
             if (activeScreen != null) { 
                 activeScreen.Close(); 
             }
-            Form screen = new Form();
+            Add_Inventory screen = new Add_Inventory("Welcome your Highness");
             screen.MdiParent = this;
             screen.Show();
 
@@ -46,7 +46,7 @@ namespace WinApp
             {
                 activeScreen.Close();
             }
-            DisplayAllProducts screen = new DisplayAllProducts();
+            Major screen = new Major();
             screen.MdiParent = this;
             screen.Show();
 
@@ -55,6 +55,35 @@ namespace WinApp
         private void displayStudentToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void toolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void updateDepartmentToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var activeScreen = ActiveMdiChild;
+            if (activeScreen != null)
+            {
+                activeScreen.Close();
+            }
+            Search screen = new Search();
+            screen.MdiParent = this;
+            screen.Show();
+        }
+
+        private void addDepartmentToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var activeScreen = ActiveMdiChild;
+            if (activeScreen != null)
+            {
+                activeScreen.Close();
+            }
+            Major screen = new Major();
+            screen.MdiParent = this;
+            screen.Show();
         }
     }
 }

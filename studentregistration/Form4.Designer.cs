@@ -1,6 +1,6 @@
 ﻿namespace studentregistration
 {
-    partial class Form2
+    partial class TableLayout
     {
         /// <summary>
         /// Required designer variable.
@@ -29,43 +29,49 @@
         private void InitializeComponent()
         {
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.studentCustomCard1 = new studentregistration.StudentCustomCard();
+            this.customcard1 = new studentregistration.customcard();
             this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // tableLayoutPanel1
             // 
-            this.tableLayoutPanel1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.tableLayoutPanel1.ColumnCount = 2;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 540F));
-            this.tableLayoutPanel1.Controls.Add(this.studentCustomCard1, 0, 0);
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(12, 12);
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel1.Controls.Add(this.customcard1, 0, 0);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(13, 13);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 2;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1077, 524);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1238, 813);
             this.tableLayoutPanel1.TabIndex = 0;
             this.tableLayoutPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel1_Paint);
             // 
-            // studentCustomCard1
+            // customcard1
             // 
-            this.studentCustomCard1.Location = new System.Drawing.Point(3, 3);
-            this.studentCustomCard1.Name = "studentCustomCard1";
-            this.studentCustomCard1.Size = new System.Drawing.Size(531, 250);
-            this.studentCustomCard1.TabIndex = 0;
+            this.customcard1.ADDRESS = null;
+            this.customcard1.FIRSTNAME = null;
+            this.customcard1.GENDER = null;
+            this.customcard1.ID = null;
+            this.customcard1.LASTNAME = null;
+            this.customcard1.Location = new System.Drawing.Point(3, 3);
+            this.customcard1.Name = "customcard1";
+            this.customcard1.SCHOOLYEAR = null;
+            this.customcard1.Size = new System.Drawing.Size(549, 366);
+            this.customcard1.TabIndex = 0;
             // 
-            // Form2
+            // TableLayout
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1273, 599);
+            this.ClientSize = new System.Drawing.Size(1280, 838);
             this.Controls.Add(this.tableLayoutPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Form2";
+            this.Name = "TableLayout";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Student";
+            this.Text = "Table Layout";
+            this.Load += new System.EventHandler(this.Form4_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -74,6 +80,6 @@
         #endregion
 
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
-        private StudentCustomCard studentCustomCard1;
+        private customcard customcard1;
     }
 }

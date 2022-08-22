@@ -29,7 +29,7 @@ namespace studentregistration
             {
                 activeScreen.Close();
             }
-            Form1 screen = new Form1();
+            Registration screen = new Registration();
             screen.MdiParent = this;
             screen.Show();
 
@@ -42,7 +42,7 @@ namespace studentregistration
             {
                 activeScreen.Close();
             }
-            Form2 screen = new Form2();
+            TableLayout screen = new TableLayout();
             screen.MdiParent = this;
             screen.Show();
 

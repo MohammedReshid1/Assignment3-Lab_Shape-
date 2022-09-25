@@ -21,6 +21,7 @@ C:\Users\Moham\OneDrive\Desktop\C++\C#\CS_223\studentregistration\obj\Debug\stud
 C:\Users\Moham\OneDrive\Desktop\C++\C#\CS_223\studentregistration\obj\Debug\studentregistration.Form3.resources
 C:\Users\Moham\OneDrive\Desktop\C++\C#\CS_223\studentregistration\obj\Debug\studentregistration.TableLayout.resources
 C:\Users\Moham\OneDrive\Desktop\C++\C#\CS_223\studentregistration\obj\Debug\studentregistration.Properties.Resources.resources
+C:\Users\Moham\OneDrive\Desktop\C++\C#\CS_223\studentregistration\obj\Debug\studentregistration.Test.resources
 C:\Users\Moham\OneDrive\Desktop\C++\C#\CS_223\studentregistration\obj\Debug\studentregistration.csproj.GenerateResource.cache
 C:\Users\Moham\OneDrive\Desktop\C++\C#\CS_223\studentregistration\obj\Debug\studentregistration.csproj.CoreCompileInputs.cache
 C:\Users\Moham\OneDrive\Desktop\C++\C#\CS_223\studentregistration\obj\Debug\studentregistration.exe

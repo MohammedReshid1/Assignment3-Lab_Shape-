@@ -60,6 +60,7 @@
             this.customcard1.SCHOOLYEAR = null;
             this.customcard1.Size = new System.Drawing.Size(549, 366);
             this.customcard1.TabIndex = 0;
+            this.customcard1.Load += new System.EventHandler(this.customcard1_Load);
             // 
             // TableLayout
             // 

@@ -31,8 +31,9 @@ namespace studentregistration
 
                 customcard.Click += (s, t) =>
                 {
-                    Registration f = new Registration();
-                    f.Show();
+                    MessageBox.Show("Student clicked : " + item.fname + "" + item.lname);
+                    //Registration f = new Registration();
+                   // f.Show();
                 };
                 tableLayoutPanel1.Controls.Add(customcard);
             }
@@ -41,6 +42,11 @@ namespace studentregistration
         }
 
         private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void customcard1_Load(object sender, EventArgs e)
         {
 
         }
